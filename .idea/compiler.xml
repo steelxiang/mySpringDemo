@@ -12,7 +12,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="admin" target="1.5" />
+      <module name="admin" target="1.8" />
       <module name="client" target="1.5" />
       <module name="client2" target="1.5" />
       <module name="mySpringDemo" target="1.5" />
