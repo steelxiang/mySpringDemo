@@ -1,0 +1,19 @@
+spring:
+  cloud:
+    vault:
+      host: 182.61.47.1
+      port: 8200
+      scheme: http
+      uri: http://182.61.47.1:8200
+      connection-timeout: 5000
+      read-timeout: 15000
+      config:
+        order: -10
+      token: s.KixgIvx8Xvt8EVz89aeR9bUB
+      database:
+        backend: database
+        enabled: true
+        role: my-role
+        password-property: spring.datasource.password
+        username-property: spring.datasource.username
+      authentication: token

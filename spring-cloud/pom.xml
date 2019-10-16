@@ -16,13 +16,16 @@
         <module>eureka-client-1</module>
         <module>service-ribbon</module>
         <module>serice-feign</module>
+        <module>service-zuul</module>
+        <module>config-server</module>
+        <module>config-client</module>
     </modules>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
         <java.version>1.8</java.version>
-        <spring-cloud.version>Finchley.RELEASE</spring-cloud.version>
+        <spring-cloud.version>Greenwich.RELEASE</spring-cloud.version>
     </properties>
 
 
